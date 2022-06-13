@@ -6,9 +6,7 @@
     <c:param name="content">
         <c:choose>
             <c:when test="${task != null}">
-
-                <h2>id : ${task.id} のタスク詳細ページ</h2>
-
+            <h2>id : ${task.id} のメッセージ詳細ページ</h2>
                 <table>
                     <tbody>
                         <tr>
@@ -27,7 +25,6 @@
                         </tr>
                     </tbody>
                 </table>
-
 
                 <p>
                     <a href="${pageContext.request.contextPath}/index">一覧に戻る</a>
